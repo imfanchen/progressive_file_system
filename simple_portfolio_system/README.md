@@ -3,12 +3,14 @@
 Build a class / object that can track your portfolio.  You do not need to track individual trades or tax lots, but it should capture the net impact of the trade on the portfolio (+/- cash and +/- quantity of shares).  
 
 It should have methods:
+```test
     * Buy(ticker: string, quantity: integer, pricePerShare: decimal) : void : exception
        - Must have sufficient cash
     * Sell(ticker: string, quantity: integer, pricePerShare: decimal) : void : exception
        - Must have sufficient quantity
     * GetCashBalance() : decimal
     * GetQuantityOfShares(ticker: string) : integer
+```
 
 # Level 2
 
