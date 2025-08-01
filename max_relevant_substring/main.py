@@ -23,7 +23,7 @@ def get_substring_slow(passage: str, scores: list[float], threshold=0.5) -> str:
     return substring
 
 
-def get_substring_fast(passage: str, scores: list[float], threshold=0.5):
+def get_substring_fast(passage: str, scores: list[float], threshold=0.5) -> str:
     """
     O(n) version: finds the max contiguous substring with scores >= threshold.
     """
